@@ -1,6 +1,5 @@
 <?php
-session_start();
-$link = mysqli_connect("localhost", "root", "", "klinik_kesehatan");
+include('koneksi.php');
 
 ?>
 <!DOCTYPE html>

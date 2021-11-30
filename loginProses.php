@@ -1,6 +1,5 @@
 <?php
-session_start();
-$connect = mysqli_connect("localhost", "root", "", "klinik_kesehatan");
+include('koneksi.php');
 
 $id_user = $_POST['id_user'];
 $password = $_POST['password'];

@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect("localhost", "root", "", "klinik_kesehatan");
+include('koneksi.php');
 $id = $_GET['id'];
 $no = "DELETE FROM obat WHERE id_obat='$id'";
 $result = mysqli_query($connect, $no);

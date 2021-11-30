@@ -22,9 +22,7 @@
 
 <body class="bg-gradient-primary">
   <?php
-  session_start();
-  $connect = mysqli_connect("localhost", "root", "", "klinik_kesehatan");
-
+  include('koneksi.php');
   $nama = $_POST['nama'];
   $tanggal = $_POST['tanggal'];
   $kelamin = $_POST['kelamin'];
